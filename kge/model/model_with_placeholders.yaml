@@ -1,0 +1,7 @@
+import: [complex]
+
+model_with_placeholders:
+  class_name: ModelWithPlaceholders
+  base_model:
+    type: complex
+    +++: +++
