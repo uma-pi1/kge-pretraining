@@ -76,9 +76,9 @@ the training data of each task.
 The main extensions to LibKGE for training models are found in the following 
 files:
 
-* [kge/job/train_1vsAll_hybrid.py](train_1vsAll_hybrid.py): 1vsAll generalized for more tasks
-* [kge/job/train_KvsAll_hybrid.py](train_KvsAll_hybrid.py): KvsAll generalized for more tasks
-* [kge/job/train_negative_sampling_hybrid.py](train_1vsAll_hybrid.py): NegSamp generalized for more tasks
+* [train_1vsAll_hybrid.py](kge/job/train_1vsAll_hybrid.py): 1vsAll generalized for more tasks
+* [train_KvsAll_hybrid.py](kge/job/train_KvsAll_hybrid.py): KvsAll generalized for more tasks
+* [train_1vsAll_hybrid.py](kge/job/train_negative_sampling_hybrid.py): NegSamp generalized for more tasks
 
 Note that they all follow the internal notation of representing task queries 
 using an underscore to mark the target of query, and the symbol *^* to mark 
