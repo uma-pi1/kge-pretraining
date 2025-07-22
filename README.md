@@ -85,7 +85,11 @@ using an underscore to mark the target of query, and the symbol *^* to mark
 a wildcard slot.
 E.g. *s^_* represents the (subject) entity neighborhood task. 
 To add a new training objective, we suggest adding a new training file 
-following any of the files listed above as an example.
+following any of the files listed above as an example. Similarly, to evaluate a 
+new task you implement for a training objective, you should add support for that
+task in the [RankingEvaluation](kge/job/eval_ranking.py) job, where we 
+implemented the more general evaluation protocol that includes all tasks 
+included in our study.
 
 ## How to Add New Downstream Tasks
 
